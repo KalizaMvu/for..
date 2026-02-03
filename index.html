@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For You</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <main class="wrap">
+        <header class="hero">
+            <p class="eyebrow">For you</p>
+
+            <h1 class="title">
+                Hi My Lia<span class="dot">.</span>
+            </h1>
+
+            <p class="sub">
+                Even though you don't make me laugh everyday —
+                <br />
+                you always put a smile on my face.
+            </p>
+
+            <div class="scrollHint" aria-hidden="true">
+                <span>Scroll</span>
+                <span class="arrow">↓</span>
+            </div>
+        </header>
+        <section class="section reveal" id="how-we-met">
+            <h2>How we met</h2>
+
+            <p class="lead muted">
+                I didn’t expect much that day… and then you showed up.
+            </p>
+
+            <p class="story">
+                We met when <span class="fill">[where/how]</span>.
+                The first thing I noticed was <span class="fill">[one specific detail]</span>.
+                I remember you said <span class="fill">[something she said]</span> and it stuck with me.
+                After that, I kept thinking about you — like randomly throughout the day.
+                And now you’re honestly one of my favorite parts of life.
+                Remember when I told you I'd build you your own website.. bet you aint think it'd be this soon!
+            </p>
+        </section>
+        <section class="section" id="fav-times">
+            <h2>My favorite times with you</h2>
+            <p class="lead muted">Just a few moments I keep replaying.</p>
+
+            <div class="carousel" aria-label="Favorite moments">
+                <figure class="slide">
+                    <img src="images/moment1.jpg" alt="A favorite moment together" />
+                    <figcaption>Caption here.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="section reveal" id="music">
+            <h2>Songs that remind me of you</h2>
+
+            <p class="lead muted">Just five — but you know why.</p>
+
+            <div class="embedCard">
+                <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450"
+                    style="width: 100%; max-width: 660px; overflow: hidden; background: transparent;"
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+                    src="https://embed.music.apple.com/us/playlist/my-k/pl.u-4JomXg3CJARa4Dk"></iframe>
+            </div>
+            <ol class="songList">
+                <li>
+                    <div class="songRow">
+                        <span class="songTitle">Raindance</span>
+                        <span class="songNote">Dave &amp; Tems</span>
+                    </div>
+                    <details class="lyricDrop">
+                        <summary>Lyric</summary>
+                        <p class="lyric">“your lyric snippet here”</p>
+                    </details>
+                </li>
+
+                <li>
+                    <div class="songRow">
+                        <span class="songTitle">Transform</span>
+                        <span class="songNote">Daniel Caesar</span>
+                    </div>
+                    <details class="lyricDrop">
+                        <summary>Lyric</summary>
+                        <p class="lyric">“your lyric snippet here”</p>
+                    </details>
+                </li>
+
+                <li>
+                    <div class="songRow">
+                        <span class="songTitle">Find Your Love</span>
+                        <span class="songNote">Drake</span>
+                    </div>
+                    <details class="lyricDrop">
+                        <summary>Lyric</summary>
+                        <p class="lyric">“your lyric snippet here”</p>
+                    </details>
+                </li>
+
+                <li>
+                    <div class="songRow">
+                        <span class="songTitle">Why Don&apos;t We Fall In Love</span>
+                        <span class="songNote">Amerie</span>
+                    </div>
+                    <details class="lyricDrop">
+                        <summary>Lyric</summary>
+                        <p class="lyric">“your lyric snippet here”</p>
+                    </details>
+                </li>
+
+                <li>
+                    <div class="songRow">
+                        <span class="songTitle">All I Want Is You</span>
+                        <span class="songNote">Miguel</span>
+                    </div>
+                    <details class="lyricDrop">
+                        <summary>Lyric</summary>
+                        <p class="lyric">“your lyric snippet here”</p>
+                    </details>
+                </li>
+            </ol>
+
+        </section>
+        <section class="section reveal" id="ask">
+            <h2>One last thing</h2>
+
+            <p class="lead muted">
+                I like you. I'm serious about you. And I want to ask you properly.
+            </p>
+
+            <div class="askCard">
+                <p class="bigQuestion">Will you be my girlfriend?</p>
+
+                <div class="btnRow">
+                    <button class="btnPrimary" id="yesBtn">Yes</button>
+                    <button class="btnGhost" id="noBtn">No</button>
+                </div>
+
+                <p class="response" id="responseText" aria-live="polite"></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
